@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 6rem;  
+}
+
+
+.btn-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background-color: antiquewhite;
+  border: none;
+}
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.positive {
+  color: aquamarine;
+}
+
+.negative {
+  color: brown
+;}
+
+
